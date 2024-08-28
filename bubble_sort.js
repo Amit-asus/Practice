@@ -3,7 +3,7 @@ const bubbleSort = (arr) => {
 
   do {
     swappped = false;
-    for (let i = 0; i < arr.length - 1; i++) {
+    for (let i = 0; i < arr.length - 1; i++) {  //it should go till length - 1 
       if (arr[i + 1] < arr[i]) {
         let temp = arr[i];
         arr[i] = arr[i + 1];

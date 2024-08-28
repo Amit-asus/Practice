@@ -1,0 +1,2 @@
+// const p = fetch("https://jsonplaceholder.typicode.com/todos/1").then((res)=> res.json()).then((v)=>(console.log(v)))
+fetch("https://jsonplaceholder.typicode.com/todos/1").then((res)=>(console.log(res))) ;
